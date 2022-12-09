@@ -1,0 +1,40 @@
+{
+    "totalArticles": 59658,
+    "articles": [{
+            "title": "Microsoft, Google, Oracle, Amazon to share $9B Pentagon cloud computing contract",
+            "description": "Microsoft, Oracle, Google and Amazon will share a $9 billion contract to provide the Department of Defense with cloud computing systems.",
+            "content": "The Department of Defense, led by Secretary Lloyd Austin, has awarded a $9 billion contract for cloud computing systems to Oracle, Google, Amazon and Microsoft. File Photo by Lisa Ferdinando/DoD/UPI | License Photo\nDec. 8 (UPI) -- Microsoft, Oracle, ... [1377 chars]",
+            "url": "https://www.upi.com/Top_News/US/2022/12/08/goolge-oracle-microsoft-amazon-contract-pentagon/5061670531112/",
+            "image": "https://cdnph.upi.com/sv/ph/og/upi/5061670531112/2022/1/ca3de86d39ce9bc3d9cea287d7a0c843/v1.5/Microsoft-Google-Oracle-Amazon-to-share-9B-Pentagon-cloud-computing-contract.jpg",
+            "publishedAt": "2022-12-08T21:18:31Z",
+            "source": {
+                "name": "UPI News",
+                "url": "https://www.upi.com"
+            }
+        },
+        {
+            "title": "DeepMind’s latest AI project solves programming challenges like a newb",
+            "description": "Google's AI division tackles programming languages with a language model.",
+            "content": "Google's DeepMind AI division has tackled everything from StarCraft to protein folding. So it's probably no surprise that its creators have eventually turned to what is undoubtedly a personal interest: computer programming. In Thursday's edition of S... [2959 chars]",
+            "url": "https://arstechnica.com/science/2022/12/deepminds-latest-ai-project-solves-programming-challenges-like-a-newb/",
+            "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/12/GettyImages-521369998-760x380.jpg",
+            "publishedAt": "2022-12-08T21:15:20Z",
+            "source": {
+                "name": "Ars Technica",
+                "url": "https://arstechnica.com"
+            }
+        },
+        {
+            "title": "Digital driver's license",
+            "description": "Google's December Play System Updates readies a digital driver's license beta for Android's Wallet app and preps for the Pixel Tablet.",
+            "content": "Google’s December Play System Updates ready a beta test for keeping a digital driver’s license in your Android phone’s Wallet app while also preparing for next year’s Pixel Tablet.\nUpdate: The latest tidbits reveal a new download bubble for Play Stor... [4782 chars]",
+            "url": "https://9to5google.com/2022/12/08/december-play-system-updates-digital-drivers-license/",
+            "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2022/11/google-wallet-drivers-license.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2022-12-08T20:46:00Z",
+            "source": {
+                "name": "9to5Google",
+                "url": "https://9to5google.com"
+            }
+        }
+    ]
+}

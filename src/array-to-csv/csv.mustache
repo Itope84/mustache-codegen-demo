@@ -1,0 +1,8 @@
+{{#headers}}{{.}},{{/headers}}
+{{#flatData}}
+{{! . is used to select the current item. And #varName is the similar to varName in that it can output the variable itself. As you will see in the xase of nonNested array input }}
+{{#.}}{{.}},{{/.}}
+{{/flatData}}
+{{#objectData}}
+{{#.}}{{name}},{{age}},{{dob}}{{/.}}
+{{/objectData}}
