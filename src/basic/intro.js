@@ -19,8 +19,9 @@ const template1 = `* {{name}}
 <%={{ }}=%>`
 
 const data1 = {
-  "name": "Chris",
-  "company": "<b>GitHub</b>"
+    "name": "Chris",
+    "age": 24,
+    "company": "<b>GitHub</b>"
 }
 
 console.log(generateOutput(template1, data1))

@@ -38,11 +38,29 @@ const withHeaders = {
 const withObjects = {
     headers: ['Hello Title', 'World Title', 'Foo Title'],
     objectData: [
-        ['Hello', 'World', "Foo"],
-        ['Hello', 'World', "Foo"],
-    ]
+        {
+            firstName: "Tom",
+            lastName: "Adams",
+            gender: "Male",
+            dob: "1997"
+        },
+        {
+            firstName: "Philomena",
+            lastName: "Cunk",
+            gender: "Female",
+            dob: "1975"
+        }
+    ],
+    name: function () {
+        return `${this.firstName} ${this.lastName}`
+    },
+    getAge: () => function (text, render) {
+        const dob = render(text)
+        return (new Date(Date.now() - (new Date(dob))).getFullYear() - 1970)
+    }
 }
 
 generateOutputFromCsv(nonNested, 'nonNested')
 generateOutputFromCsv(nested)
 generateOutputFromCsv(withHeaders, 'withHeaders')
+generateOutputFromCsv(withObjects, 'withObjects')

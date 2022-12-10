@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "A simple package that demonstrates the power of mustache templating, in javascript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Temitope Ilesanmi",
   "license": "ISC",
   "dependencies": {
-    "mustache": "^4.2.0"
+    "mustache": "^4.2.0",
+    "prompt": "^1.3.0"
   }
 }

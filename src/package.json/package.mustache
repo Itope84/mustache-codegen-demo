@@ -1,0 +1,29 @@
+{
+  "name": "{{name}}",
+  "version": "{{#version}}{{.}}{{/version}}{{^version}}1.0.0{{/version}}",
+  "description": "{{description}}",
+  "main": "{{#main}}{{.}}{{/main}}{{^main}}index.js{{/main}}",
+  "scripts": {
+    "test": "{{#test}}{{.}}{{/test}}{{^test}}echo \"Error: no test specified\" && exit 1{{/test}}"
+  },
+  {{#repository}}
+  "repository": {
+    "type": "git",
+    "url": "git+{{.}}.git"
+  },
+  "bugs": {
+    "url": "{{.}}/issues"
+  },
+  "homepage": "{{.}}#readme",
+  {{/repository}}
+  {{#keywords.length}}
+  "keywords": [
+    {{#keywords}}
+    "{{.}}",
+    {{/keywords}}
+  ],
+  {{/keywords.length}}
+  "author": "{{author}}",
+  "license": "{{#license}}{{.}}{{/license}}{{^license}}ISC{{/license}}"
+}
+

@@ -1,8 +1,11 @@
+{{! This is how to render a simple flat list.
+#headers is the key of the section and dot (.) simply renders "current" item }}
 {{#headers}}{{.}},{{/headers}}
+{{! And here, we render a nested list by creating a section for the row (#.) and passing each item (the columns) into that section }}
 {{#flatData}}
-{{! . is used to select the current item. And #varName is the similar to varName in that it can output the variable itself. As you will see in the xase of nonNested array input }}
 {{#.}}{{.}},{{/.}}
 {{/flatData}}
+{{! With objectData we expect each item in the array to have a property name instead of a flat data }}
 {{#objectData}}
-{{#.}}{{name}},{{age}},{{dob}}{{/.}}
+{{#.}}{{name}},{{gender}},{{#getAge}}{{dob}}{{/getAge}},{{/.}}
 {{/objectData}}
